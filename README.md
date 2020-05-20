@@ -9,7 +9,6 @@
 ## 如何复现
 
 ```bash
-yarn global add @tarojs/cli@2.2.3
 yarn install
 yarn build
 ```
