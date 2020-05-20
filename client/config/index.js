@@ -1,3 +1,7 @@
+const path = require('path')
+
+const resolve = (p) => path.join(__dirname, '..', p)
+
 const config = {
   projectName: 'taro-issue',
   date: '2020-5-20',
@@ -29,6 +33,9 @@ const config = {
       ]
     ]
   },
+  plugins: [
+    resolve('plugins/emit-file.js')
+  ],
   defineConstants: {
   },
   mini: {
